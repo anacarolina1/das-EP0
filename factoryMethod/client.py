@@ -1,4 +1,5 @@
 from car_factory import ChevroletFactory, WolksFactory, FordFactory, FiatFactory
+from facade import FacadeAdditional
 
 if __name__ == '__main__':
 
@@ -22,3 +23,7 @@ if __name__ == '__main__':
 	car = car_factory.create_car()
 	car.show_info()
 	print "#########################"
+
+	#Facade Method
+	facade = FacadeAdditional()
+	facade.addItems
